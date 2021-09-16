@@ -1,12 +1,17 @@
-# Sign your name:________________
+# Sign your name:___KAI_____________
 # In all the short programs below, do a good job communicating with your end user!
 
 
 # 1.) Write a program that asks someone for their name and then prints a greeting that uses their name.
-
+#name = input("What is your name?")
+#print("Nice to meet you,", name )
 
 # 2. Write a program where a user enters a base and height and you print the area of a triangle.
-
+#print("Hello! Welcome to the area finder of a triangle V12.1921(alpha) (unstable build)")
+#height = int(input("What is the height of the triangle?"))
+#base = int(input("What is the base of the triangle?"))
+#area = base * height * 0.5
+#print("Your answer is,", area)
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
 
