@@ -1,7 +1,6 @@
 # Sign your name:___KAI_____________
 # In all the short programs below, do a good job communicating with your end user!
-
-
+import math
 # 1.) Write a program that asks someone for their name and then prints a greeting that uses their name.
 #name = input("What is your name?")
 #print("Nice to meet you,", name )
@@ -17,6 +16,11 @@
 
 
 # 4. Ask a user for an integer and then print the square root.
+number = int(input("What ist he integer?"))
+finalanswer = number / number
+print(finalanswer)
+
+
 
 
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
