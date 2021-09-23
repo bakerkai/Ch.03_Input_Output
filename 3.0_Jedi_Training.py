@@ -13,18 +13,23 @@ import math
 #print("Your answer is,", area)
 
 # 3. Write a line of code that will ask the user for the radius of a circle and then prints the circumference.
-
+#radius = int(input("What is the radius of the circle?"))
+#circumference = radius * 2 * 3.14
+#print(circumference)
 
 # 4. Ask a user for an integer and then print the square root.
-number = int(input("What ist he integer?"))
-finalanswer = number / number
-print(finalanswer)
+#number = int(input("What ist he integer?"))
+#finalanswer = number / number
+#print(finalanswer)
 
 
 
 
 # 5. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. 
 #    Ask the user for mass and acceleration and then print out the Force on one line and "Get it?" on the next.
-
+#mass = int (input("What is the mass of the object?"))
+#acceleration = int(input("What is the acceleration?"))
+#answer = mass * acceleration
+#print(answer, "May the accleration times mass be with you!")
 
 
