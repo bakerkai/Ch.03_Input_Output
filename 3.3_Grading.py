@@ -16,5 +16,11 @@ Sem Grade: 72   Final Exam: 100   Exam worth: 20%    Overall: 77.6
 OG = (SG*(100-FW) + FE*FW)/100
 grade times worth added together
 '''
-print("Welcome to grading software v1.1")
-SG = int(input)
+print("Welcome to grading software v1.1 (Unstable build, may explode upon error")
+SG = float(input("What is your semester grade"))
+TS = float(input("What is the score of the test"))
+TW = float(input("How much is the test worth?"))
+
+endscore = SG*(100-TW) + TS * TW
+endscore /=100
+print("The Overall grade is:", endscore)
